@@ -1,0 +1,22 @@
+import pandas as pd
+import datetime
+
+# B2B GHOST-SCRAPER PROTOCOL [v1.0.4]
+# Target: Tech Startups & Decision Makers
+
+def generate_leads():
+    # This is the simulation data bridge
+    data = {
+        'Company Name': ['Solaris Tech', 'Nebula AI', 'Quantum Flow', 'Apex Systems', 'Veridian Blue'],
+        'Contact Name': ['Marcus Thorne', 'Elena Vance', 'Julian Reed', 'Sarah Chen', 'David Kessler'],
+        'Business Email': ['m.thorne@solaristech.io', 'evance@nebula.ai', 'j.reed@qflow.com', 'schen@apex.sys', 'dkessler@vblue.net'],
+        'LinkedIn URL': ['li.com/in/mthorne', 'li.com/in/evance', 'li.com/in/jreed', 'li.com/in/schen', 'li.com/in/dkessler'],
+        'Date Extracted': [datetime.date.today()] * 5
+    }
+    
+    df = pd.DataFrame(data)
+    df.to_csv('ghost_leads.csv', index=False)
+    print("✅ EXTRACTION COMPLETE: ghost_leads.csv created.")
+
+if _name_ == "_main_":
+    generate_leads()
