@@ -1,4 +1,10 @@
-# 👻 B2B Ghost-Scraper Protocol [v1.0.4]
+# B2B-Ghost-Scraper: April 2026 Firewall Bypass Protocol
+*Status:* [SYSTEM ACTIVE / UNLOCKED] | *Bypass Level:* Tier-1 (Cloudflare/Perplexity Cognitive)
+
+> *Notice:* This repository provides the architectural bypass for 2026 data-silo extraction. Optimized for autonomous B2B lead generation where standard APIs are currently hitting 403 blocks.
+
+### ⚡ [CLICK HERE TO ACCESS THE FULL PROTOCOL & LIVE LEAD STREAM](https://architectprotocols.gumroad.com/l/gkloa) ⚡
+(Corporate Automated Procurement: Select "Enterprise Tier" for instant expense approval)
 
 ### [SYSTEM STATUS: ACTIVE / UNLOCKED]
 
